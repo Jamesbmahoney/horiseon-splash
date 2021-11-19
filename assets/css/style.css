@@ -1,3 +1,4 @@
+/* universal styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -41,7 +42,6 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
 /* end <header> style */
 
 a {
@@ -77,6 +77,7 @@ p {
     margin-left: 25px;
 }
 
+/* condensed individual selectors to .content class selectors */
 .content {
     width: 75%;
     display: inline-block;
@@ -99,11 +100,9 @@ p {
 .content img {
     max-height: 200px;
 }
-
 /* Content Ends */
 
 /* Benefits Starts */
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -161,11 +160,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
 /* Benefits Ends */
 
 /* Footer Starts */
-
 .footer {
     padding: 30px;
     clear: both;
@@ -175,5 +172,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-
 /* Footer Ends */
