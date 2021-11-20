@@ -100,6 +100,7 @@ body {
 }
 
 /* Benefits Starts */
+/* condensed individual selectors to .benefits selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,17 +111,7 @@ body {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -130,23 +121,12 @@ body {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* Benefits Ends */
 
 /* Footer Starts */
